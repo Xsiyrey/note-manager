@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteManager", "NoteManager\NoteManager.csproj", "{ACF9BC86-4528-43C8-973D-0EABB1233CAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACF9BC86-4528-43C8-973D-0EABB1233CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF9BC86-4528-43C8-973D-0EABB1233CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF9BC86-4528-43C8-973D-0EABB1233CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF9BC86-4528-43C8-973D-0EABB1233CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
