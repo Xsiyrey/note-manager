@@ -2,3 +2,4 @@ NoteManager/app.db
 /.idea/
 /NoteManager/bin/
 /NoteManager/obj/
+obj/ApplicationDbContext.EntityFrameworkCore.targets

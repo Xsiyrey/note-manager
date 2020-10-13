@@ -15,6 +15,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NoteManager.Areas.Identity;
 using NoteManager.Data;
+using NoteManager.Services.PasswordManager;
 
 namespace NoteManager
 {
@@ -41,7 +42,7 @@ namespace NoteManager
             services
                 .AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>
                 >();
-            services.AddSingleton<WeatherForecastService>();
+            services.AddScoped<PasswordManagerService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
