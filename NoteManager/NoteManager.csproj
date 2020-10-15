@@ -19,6 +19,7 @@
 
     <ItemGroup>
       <Folder Include="Models\PasswordManager" />
+      <Folder Include="ViewModels" />
     </ItemGroup>
 
 </Project>

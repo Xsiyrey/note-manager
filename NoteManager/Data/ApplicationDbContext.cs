@@ -20,5 +20,7 @@ namespace NoteManager.Data
         }
 
         public DbSet<NavItem> NavItems { get; set; }
+        public DbSet<Password> Passwords { get; set; }
+        public DbSet<PasswordValue> PasswordValues { get; set; }
     }
 }
